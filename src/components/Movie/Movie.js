@@ -1,5 +1,6 @@
 import React from 'react';
 import './Movie.css'
+import { BiMoviePlay } from 'react-icons/bi'
 const Movie = (props) => {
     const {name,budget,img}=props.movie;
     return (
@@ -7,7 +8,7 @@ const Movie = (props) => {
             <img src={img} alt="" />
             <h3>Name: {name}</h3>
             <p>Budget: {budget}</p>
-            <button onClick={()=>props.handleSelect(props.movie)}>Select Watch</button>
+            <button onClick={()=>props.handleSelect(props.movie)}>Select Watch <BiMoviePlay size={15}/></button>
         </div>
     );
 };
