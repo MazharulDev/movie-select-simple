@@ -1,7 +1,7 @@
 [
 	{
 		"id":1,
-		"name":"joker",
+		"name":"Joker",
 		"img":"https://c4.wallpaperflare.com/wallpaper/343/846/438/joker-2019-movie-joker-joaquin-phoenix-men-makeup-hd-wallpaper-preview.jpg",
 		"budget":3000
 		
@@ -22,14 +22,14 @@
 	},
 	{
 		"id":4,
-		"name":"John wick",
-		"img": "https://c4.wallpaperflare.com/wallpaper/649/1012/960/john-wick-movie-poster-wallpaper-preview.jpg",
+		"name":"The Lion King",
+		"img": "https://c4.wallpaperflare.com/wallpaper/343/724/32/the-lion-king-2019-movie-poster-wallpaper-preview.jpg",
 		"budget": 400
 	},
 	{
 		"id":5,
-		"name":"Alien",
-		"img": "https://c4.wallpaperflare.com/wallpaper/852/644/1008/alien-movie-poster-sigourney-weaver-movie-poster-wallpaper-preview.jpg",
+		"name":"The Wolverine",
+		"img": "https://c4.wallpaperflare.com/wallpaper/241/660/901/wolverine-sword-wallpaper-preview.jpg",
 		"budget": 700
 	},
 	{
@@ -46,8 +46,8 @@
 	},
 	{
 		"id":8,
-		"name":"Avater",
-		"img": "https://c4.wallpaperflare.com/wallpaper/123/991/646/avatar-blue-skin-james-cameron-s-movie-avatar-movie-poster-wallpaper-preview.jpg",
+		"name":"Thor Ragnarok",
+		"img": "https://c4.wallpaperflare.com/wallpaper/716/265/234/thor-ragnarok-hd-4k-2017-wallpaper-preview.jpg",
 		"budget": 700
 	},
 	{

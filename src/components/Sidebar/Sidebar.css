@@ -4,3 +4,7 @@
     margin: 20px;
     border-radius: 10px;
 }
+.sidebar-div{
+    position: sticky;
+    top: 20px;
+}
