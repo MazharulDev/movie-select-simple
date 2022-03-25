@@ -1,0 +1,59 @@
+[
+	{
+		"id":1,
+		"name":"joker",
+		"img":"https://c4.wallpaperflare.com/wallpaper/343/846/438/joker-2019-movie-joker-joaquin-phoenix-men-makeup-hd-wallpaper-preview.jpg",
+		"budget":3000
+		
+		
+	},
+	
+	{
+		"id":2,
+		"name":"Avengers End Game",
+		"img": "https://c4.wallpaperflare.com/wallpaper/361/823/829/avengers-endgame-iron-man-robert-downey-jr-captain-america-chris-evans-hd-wallpaper-preview.jpg",
+		"budget": 500
+	},
+	{
+		"id":3,
+		"name":"Venom",
+		"img": "https://c4.wallpaperflare.com/wallpaper/789/852/954/venom-tom-hardy-marvel-comics-transformation-wallpaper-preview.jpg",
+		"budget": 300
+	},
+	{
+		"id":4,
+		"name":"John wick",
+		"img": "https://c4.wallpaperflare.com/wallpaper/649/1012/960/john-wick-movie-poster-wallpaper-preview.jpg",
+		"budget": 400
+	},
+	{
+		"id":5,
+		"name":"Alien",
+		"img": "https://c4.wallpaperflare.com/wallpaper/852/644/1008/alien-movie-poster-sigourney-weaver-movie-poster-wallpaper-preview.jpg",
+		"budget": 700
+	},
+	{
+		"id":6,
+		"name":"Incepstion",
+		"img": "https://c4.wallpaperflare.com/wallpaper/764/590/391/inception-leonardo-dicaprio-movie-posters-2400x3500-entertainment-movies-hd-art-wallpaper-preview.jpg",
+		"budget": 700
+	},
+	{
+		"id":7,
+		"name":"Star wars",
+		"img": "https://c4.wallpaperflare.com/wallpaper/153/860/948/movie-poster-star-wars-star-wars-the-rise-of-skywalker-2019-year-movies-hd-wallpaper-preview.jpg",
+		"budget": 700
+	},
+	{
+		"id":8,
+		"name":"Avater",
+		"img": "https://c4.wallpaperflare.com/wallpaper/123/991/646/avatar-blue-skin-james-cameron-s-movie-avatar-movie-poster-wallpaper-preview.jpg",
+		"budget": 700
+	},
+	{
+		"id":9,
+		"name":"Wonder woman",
+		"img": "https://c4.wallpaperflare.com/wallpaper/457/871/663/movie-poster-wonder-woman-gal-gadot-portrait-display-wallpaper-preview.jpg",
+		"budget": 700
+	}
+]
