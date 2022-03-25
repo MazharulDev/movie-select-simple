@@ -11,10 +11,15 @@ function App() {
     .then(res=>res.json())
     .then(data=>setMovies(data))
   },[])
+  const [name,setName]=useState([])
+  const handleSelect=(movieName)=>{
+    const newData=[...name,movieName];
+    setName(newData);
+  }
   return (
     <div className="App">
       <Header></Header>
-      <Movies movies={movies}></Movies>
+      <Movies movies={movies} handleSelect={handleSelect} name={name}></Movies>
       
     </div>
   );

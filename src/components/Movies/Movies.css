@@ -1,4 +1,8 @@
 .movies-container{
+    display: flex;
+    justify-content: space-around;
+}
+.movies{
     width: 720px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
