@@ -5,7 +5,9 @@ const Sidebar = (props) => {
         <div className='sidebar'>
             <h2>Selected Movies</h2>
             <div>
-                {props.name}
+                {
+                    props.name.map(nam=><p key={nam.id}>{nam.name}</p>)
+                }
             </div>
         </div>
     );

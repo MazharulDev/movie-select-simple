@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import { useEffect, useState } from 'react';
 import Movies from './components/Movies/Movies';
+import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   const [movies,setMovies]=useState([]);
@@ -19,8 +20,9 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
+     
       <Movies movies={movies} handleSelect={handleSelect} name={name}></Movies>
-      
+
     </div>
   );
 }

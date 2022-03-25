@@ -12,7 +12,8 @@ const Movies = ({movies,handleSelect,name}) => {
                 movies.map(movie=><Movie key={movie.id} movie={movie} handleSelect={handleSelect}></Movie>)
             }
             </div>
-            <Sidebar name={name}></Sidebar>
+            <Sidebar key={name.id} name={name}></Sidebar>
+           
         </div>
     );
 };

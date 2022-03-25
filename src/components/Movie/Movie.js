@@ -7,7 +7,7 @@ const Movie = (props) => {
             <img src={img} alt="" />
             <h3>Name: {name}</h3>
             <p>Budget: {budget}</p>
-            <button onClick={()=>props.handleSelect(name)}>Select Watch</button>
+            <button onClick={()=>props.handleSelect(props.movie)}>Select Watch</button>
         </div>
     );
 };
