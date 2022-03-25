@@ -10,7 +10,8 @@ const Sidebar = (props) => {
                         props.name.map(nam=><p key={nam.id}>{nam.name}</p>)
                     }
                 </div>
-                <button>Select for You</button>
+                <button>Select for You</button> <br />
+                <button onClick={()=>props.clearData(props.name)}>Choose Again</button>
             </div>
         </div>
     );

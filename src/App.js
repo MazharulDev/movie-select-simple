@@ -12,16 +12,19 @@ function App() {
     .then(res=>res.json())
     .then(data=>setMovies(data))
   },[])
-  const [name,setName]=useState([])
+  let [name,setName]=useState([])
   const handleSelect=(movieName)=>{
     const newData=[...name,movieName];
     setName(newData);
+  }
+  const clearData=(name)=>{
+    setName([])
   }
   return (
     <div className="App">
       <Header></Header>
      
-      <Movies movies={movies} handleSelect={handleSelect} name={name}></Movies>
+      <Movies movies={movies} handleSelect={handleSelect} name={name} clearData={clearData}></Movies>
 
     </div>
   );

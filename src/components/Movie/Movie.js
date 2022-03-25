@@ -7,7 +7,7 @@ const Movie = (props) => {
         <div className='movie'>
             <img src={img} alt="" />
             <h3>Name: {name}</h3>
-            <p>Budget: {budget}</p>
+            <p>Budget: ${budget}</p>
             <button onClick={()=>props.handleSelect(props.movie)}>Select Watch <BiMoviePlay size={15}/></button>
         </div>
     );
