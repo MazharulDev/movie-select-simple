@@ -1,6 +1,6 @@
 .movies-container{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
 .movies{
     width: 720px;
@@ -10,3 +10,12 @@
     padding: 20px;
 
 }
+@media screen and (max-width: 480px) {
+    .movies{
+        grid-template-columns: 1fr;
+    }
+    .movies-container{
+        display: block;
+        width: 300px;
+    }
+  }
