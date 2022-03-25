@@ -1,6 +1,6 @@
 .movies-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .movies{
     width: 720px;

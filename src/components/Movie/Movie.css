@@ -20,3 +20,6 @@
     gap: 5px;
     margin: 0 auto;
 }
+.movie button:hover{
+    background-color: rgb(180, 176, 176);
+}

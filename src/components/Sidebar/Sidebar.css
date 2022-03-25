@@ -3,6 +3,7 @@
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+    width: 300px;
 }
 .sidebar-div{
     position: sticky;
@@ -14,4 +15,17 @@
     background-color: silver;
     border-radius: 5px;
     margin-bottom: 5px;
+    cursor: pointer;
+}
+.sidebar-div button:hover{
+    background-color: rgb(180, 176, 176);
+}
+.sidebar-img{
+    width: 30px;
+    border-radius: 70%;
+}
+.sidebar-align{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }

@@ -7,7 +7,7 @@ const Sidebar = (props) => {
                 <h2>Selected Movies</h2>
                 <div>
                     {
-                        props.name.map(nam=><p key={nam.id}>{nam.name}</p>)
+                        props.name.map(nam=><p className='sidebar-align' key={nam.id}><img className='sidebar-img' src={nam.img} alt=''/>{nam.name}</p>)
                     }
                 </div>
                 <button>Select for You</button> <br />
