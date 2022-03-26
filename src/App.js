@@ -20,6 +20,7 @@ function App() {
   }
   const clearData=(name)=>{
     setName([])
+    setRandomData([])
   }
   const [randomData,setRandomData]=useState([])
   const randomMovie=()=>{
