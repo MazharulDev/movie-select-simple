@@ -7,23 +7,7 @@ const Question = () => {
             <p>Answer: React works through the virtual dom. React creates the virtual dom, and wherever the website changes, that virtual dome can easily catch up.Can change in small part to part, so time and data are less costly.And this work is done through the diff algorithm.Shows the content of the website through the browser at the end of it all</p>
             <h3>Question:  What is the difference between props and state?</h3>
             <p>
-            <table>
-                <tr>
-                    <td><b><u>Props</u></b></td>
-                    <td><b><u>State</u></b></td>
-                    
-                </tr>
-                <tr>
-                    <td>1.Props are readonly</td>
-                    <td>1.State change can be asynchronous</td>
-                
-                </tr>
-                <tr>
-                    <td>2.Props cant not be modified</td>
-                    <td>2.State can be modified using this.setState</td>
-                
-                </tr>
-            </table>
+               Answer: Props are immutable but state is mutable. Props are read-only not changes on other State changes can be asynchronous.Props send information from one component to another and Keeps information of state component.The props can be accessed by the child component but the state cannot do that.
             </p>
         </div>
     );

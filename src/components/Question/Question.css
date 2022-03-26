@@ -2,11 +2,3 @@
     width: 50%;
     margin: 0 auto;
 }
-table tr:nth-child(even) {
-    
-        background-color: #D6EEEE;
-      
-}
-table td{
-    padding: 5px;
-}
