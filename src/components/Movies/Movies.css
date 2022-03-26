@@ -13,6 +13,7 @@
 @media screen and (max-width: 480px) {
     .movies{
         grid-template-columns: 1fr;
+        width: 300px;
     }
     .movies-container{
         display: block;
