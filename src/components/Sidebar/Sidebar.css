@@ -29,3 +29,12 @@
     align-items: center;
     gap: 10px;
 }
+.sidebar-div >p img{
+    width: 30px;
+    border-radius: 70%;
+}
+.sidebar-div >p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

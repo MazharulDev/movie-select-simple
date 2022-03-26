@@ -20,11 +20,16 @@ function App() {
   const clearData=(name)=>{
     setName([])
   }
+  const [randomData,setRandomData]=useState([])
+  const randomMovie=()=>{
+    let item= name[Math.floor(Math.random()*name.length)];
+    setRandomData(item)
+  }
   return (
     <div className="App">
       <Header></Header>
      
-      <Movies movies={movies} handleSelect={handleSelect} name={name} clearData={clearData}></Movies>
+      <Movies movies={movies} handleSelect={handleSelect} name={name} clearData={clearData} randomMovie={randomMovie} randomData={randomData}></Movies>
 
     </div>
   );
