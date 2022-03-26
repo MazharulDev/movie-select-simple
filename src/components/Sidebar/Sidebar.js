@@ -1,10 +1,10 @@
 import React from 'react';
 import './Sidebar.css'
-const Sidebar = ({name,randomMovie,randomData,clearData}) => {
+const Sidebar = ({name,randomMovie,randomData,clearData,count}) => {
     return (
         <div className='sidebar'>
             <div className='sidebar-div'>
-                <h2>Selected Movies</h2>
+                <h2>Selected Movies<sup className='sup'>{count}</sup> </h2>
                 <div>
                     {
                         name.map(nam=><p className='sidebar-align' key={nam.id}><img className='sidebar-img' src={nam.img} alt=''/>{nam.name}</p>)

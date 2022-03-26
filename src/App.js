@@ -31,7 +31,7 @@ function App() {
     <div className="App">
       <Header></Header>
      
-      <Movies movies={movies} handleSelect={handleSelect} name={name} clearData={clearData} randomMovie={randomMovie} randomData={randomData}></Movies>
+      <Movies movies={movies} handleSelect={handleSelect} name={name} count={name.length} clearData={clearData} randomMovie={randomMovie} randomData={randomData}></Movies>
     <Question></Question>
     </div>
   );
