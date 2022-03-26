@@ -3,7 +3,8 @@ import './App.css';
 import Header from './components/Header/Header';
 import { useEffect, useState } from 'react';
 import Movies from './components/Movies/Movies';
-import Sidebar from './components/Sidebar/Sidebar';
+import Question from './components/Question/Question';
+
 
 function App() {
   const [movies,setMovies]=useState([]);
@@ -30,7 +31,7 @@ function App() {
       <Header></Header>
      
       <Movies movies={movies} handleSelect={handleSelect} name={name} clearData={clearData} randomMovie={randomMovie} randomData={randomData}></Movies>
-
+    <Question></Question>
     </div>
   );
 }
