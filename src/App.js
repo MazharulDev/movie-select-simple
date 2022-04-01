@@ -3,7 +3,6 @@ import './App.css';
 import Header from './components/Header/Header';
 import { useEffect, useState } from 'react';
 import Movies from './components/Movies/Movies';
-import Question from './components/Question/Question';
 
 
 function App() {
@@ -15,8 +14,18 @@ function App() {
   },[])
   let [name,setName]=useState([])
   const handleSelect=(movieName)=>{
-    const newData=[...name,movieName];
-    setName(newData);
+    const exists=name.find(movie=>movie.id===movieName.id);
+    if(!exists){
+      const newData=[...name,movieName];
+      setName(newData);
+    }else(
+      alert('item already added')
+    )
+   
+  }
+  const handleRemoveFromCart=(movieName)=>{
+    const rest=name.filter(movie=>movie.id !==movieName.id)
+    setName(rest)
   }
   const clearData=(name)=>{
     setName([])
@@ -31,8 +40,8 @@ function App() {
     <div className="App">
       <Header></Header>
      
-      <Movies movies={movies} handleSelect={handleSelect} name={name} count={name.length} clearData={clearData} randomMovie={randomMovie} randomData={randomData}></Movies>
-    <Question></Question>
+      <Movies handleRemoveFromCart={handleRemoveFromCart} movies={movies} handleSelect={handleSelect} name={name} count={name.length} clearData={clearData} randomMovie={randomMovie} randomData={randomData}></Movies>
+    
     </div>
   );
 }

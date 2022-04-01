@@ -1,13 +1,13 @@
 import React from 'react';
 import './Sidebar.css'
-const Sidebar = ({name,randomMovie,randomData,clearData,count}) => {
+const Sidebar = ({name,randomMovie,randomData,clearData,count,handleRemoveFromCart}) => {
     return (
         <div className='sidebar'>
             <div className='sidebar-div'>
                 <h2>Selected Movies<sup className='sup'>{count}</sup> </h2>
                 <div>
                     {
-                        name.map(nam=><p className='sidebar-align' key={nam.id}><img className='sidebar-img' src={nam.img} alt=''/>{nam.name}</p>)
+                        name.map(nam=><p className='sidebar-align' key={nam.id}><img className='sidebar-img' src={nam.img} alt=''/>{nam.name} <button onClick={()=>handleRemoveFromCart(nam)}>Del</button></p>)
                     }
                 </div>
                 <button disabled={name==''} onClick={randomMovie}>Select 1 for You</button> <br />

@@ -3,7 +3,7 @@ import Movie from '../Movie/Movie';
 import Sidebar from '../Sidebar/Sidebar';
 import './Movies.css'
 
-const Movies = ({movies,handleSelect,name,clearData,randomMovie,randomData,count}) => {
+const Movies = ({movies,handleSelect,name,clearData,randomMovie,randomData,count,handleRemoveFromCart}) => {
     return (
         <div className='movies-container'>
             <div className='movies'>
@@ -12,7 +12,7 @@ const Movies = ({movies,handleSelect,name,clearData,randomMovie,randomData,count
                 movies.map(movie=><Movie key={movie.id} movie={movie} handleSelect={handleSelect}></Movie>)
             }
             </div>
-            <Sidebar key={name.id} name={name} count={count} clearData={clearData} randomMovie={randomMovie} randomData={randomData}></Sidebar>
+            <Sidebar key={name.id} handleRemoveFromCart={handleRemoveFromCart} name={name} count={count} clearData={clearData} randomMovie={randomMovie} randomData={randomData}></Sidebar>
            
         </div>
     );
