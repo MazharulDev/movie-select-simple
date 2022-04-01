@@ -24,6 +24,9 @@
     width: 30px;
     border-radius: 70%;
 }
+.sidebar-btn{
+    margin-top: 5px;
+}
 .sidebar-align{
     display: flex;
     align-items: center;
